@@ -18,3 +18,15 @@ print(c!=d)
 print(c>d)
 print(c<d)
 print(c<=d)
+
+# type cousting
+x= "2"
+z=int(x)#type cousting
+y = 5
+sum = z + y
+print(sum)
+
+# get value form user
+
+name = input("Enter Your Name : ")
+print("Your name: " ,name)
