@@ -44,12 +44,36 @@ set1.add(100)#add value in set
 union = set1.union(set2) #union
 intersection = set.intersection(set2)
 
-print(union)
-print("Length of Union :", len(union))
-print(intersection)
-print("Length of intersection :", len(intersection))
+# print(union)
+# print("Length of Union :", len(union))
+# print(intersection)
+# print("Length of intersection :", len(intersection))
 
 # set1.clear()#clear set1
+
+
+
+
+# solving some question
+
+dic1 = {}
+
+new_dic1= {
+    "table": ["a piece of furniture","list of facts & figures"],
+    "cat": "a small animal"
+}
+
+dic1.update(new_dic1)
+# print(dic1)
+
+# problem 2
+
+sub1 = {"python", "c++",'python', 'javascript'}
+sub2 = {"java",'python','java','c++','c'}
+
+classRoom = sub1.union(sub2)
+print("Total ClassRoom",len(classRoom))
+
 
 
 
