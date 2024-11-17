@@ -33,11 +33,22 @@
 #         print("Dont Match")
 #     i+=1
 
-# qs 5
+# qs 5 (sum of natural number)
 
-n = 7
-sum = 0
+# n = 7
+# sum = 0
 
-for i in range(1, n+1):
-    sum +=i
-print(sum)
+# for i in range(1, n+1):
+#     sum +=i
+# print(sum)
+
+# qs 6 (sum of factorial number )
+
+n = 4
+fac = 1
+i = 1
+
+while i<=n:
+    fac *=i
+    i+=1
+print("factorial number : " , fac)
