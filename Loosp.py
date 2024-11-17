@@ -21,13 +21,23 @@
 
 
 # qs 4
-i = 0
-num = (1,4,9,16,25,36,49,64,81,100)
-n = int(input("Enter a number: "))
+# i = 0
+# num = (1,4,9,16,25,36,49,64,81,100)
+# n = int(input("Enter a number: "))
 
-while i < len(num):
-    if(num[i] == n):
-        print("match the number",i)
-    # else:
-    #     print("Dont Match")
-    i+=1
+# while i < len(num):
+#     if(num[i] == n):
+#         print("match the number in index : ",i)
+#         break
+#     else:
+#         print("Dont Match")
+#     i+=1
+
+# qs 5
+
+n = 7
+sum = 0
+
+for i in range(1, n+1):
+    sum +=i
+print(sum)
