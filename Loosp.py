@@ -53,7 +53,7 @@ fac = 1
 #     i+=1
 # print("factorial number : " , fac)
 
-for i in range(1, n+1):
-    fac *= i
-    i += 1
-print(fac)
+# for i in range(1, n+1):
+#     fac *= i
+#     i += 1
+# print(fac)
