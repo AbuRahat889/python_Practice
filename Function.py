@@ -25,4 +25,14 @@ def show(n):
        return
     print(n)
     show(n-1)
-show(10)
+# show(10)
+
+# qs 1
+
+def calculate (n):
+    if(n == 0):
+        return 0
+    return calculate(n - 1) + n
+    
+sum = calculate(5)
+print(sum)
