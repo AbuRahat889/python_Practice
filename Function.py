@@ -16,4 +16,13 @@ def even_odd(n):
     else:
         print("Even")
 
-even_odd(15)
+# even_odd(15)
+
+# Recursion(call function it self)
+
+def show(n):
+    if(n == 0):
+       return
+    print(n)
+    show(n-1)
+show(10)
