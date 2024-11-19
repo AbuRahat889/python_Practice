@@ -13,3 +13,10 @@ file.write("\nthis is another new line")# w change the all data
 
 print(data)
 
+
+
+
+# Delete file
+import os
+os.remove("newFile.txt")
+
