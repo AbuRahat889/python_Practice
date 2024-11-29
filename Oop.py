@@ -1,11 +1,11 @@
 # object create
-# class rahat:
-#     name = "shaum"
-#     age = 25
+class rahat:
+    name = "shaum"
+    age = 25
 
 
-# s1 = rahat()
-# print(s1.name, "age :", s1.age)
+s1 = rahat()
+print(s1.name, "age :", s1.age)
 
 
 # constructor
